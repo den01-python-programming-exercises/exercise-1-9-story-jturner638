@@ -5,9 +5,9 @@ def main():
     job = input("What is their job?")
 
     print("Here is the story:")
-    print("Once upon a time there was " + name + ", who was a " + job + ".")
-    print("On the way to work, " + name + " reflected on life.")
-    print("Perhaps {} will not be a {} forever".format(name, job))
+    print("Once upon a time there was {}, who was {}".format(name, job))
+    print("On the way to work, {} reflected on life.".format(name))
+    print("Perhaps {} will not be {} forever".format(name, job))
 
 if __name__ == '__main__':
     main()
